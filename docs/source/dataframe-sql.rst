@@ -240,11 +240,11 @@ For a concrete third-party implementation, `adbc-driver-redis`_ uses
 :func:`dask.dataframe.from_map` to read Redis query partitions through Arrow
 Database Connectivity (ADBC). It accepts explicit parameter partitions and an
 Arrow result schema, and opens a connection within each worker task. Its
-`integration guide <https://github.com/alberttwong/redis-adbc-driver/blob/main/docs/python-integrations.md#dask>`_
+`integration guide <https://github.com/redis/redis-adbc-driver/blob/f78bcb7/docs/integrations/dask.md>`_
 includes source installation, worker setup, and a distributed example, along with
 partition sizing and consistency limitations.
 
-.. _adbc-driver-redis: https://github.com/alberttwong/redis-adbc-driver
+.. _adbc-driver-redis: https://github.com/redis/redis-adbc-driver
 
 Stream via client
 ^^^^^^^^^^^^^^^^^
